@@ -227,6 +227,9 @@ const MessageInput = () => {
                 />
 
                 <div className="flex items-center">
+                  <button type="button" className={`btn btn-ghost btn-sm btn-circle transition-all ${isSelfDestruct ? "text-orange-500 scale-110" : "opacity-40 hover:text-orange-500"}`} onClick={() => setIsSelfDestruct(!isSelfDestruct)} title="Self-Destruct Mode">
+                      <Flame size={20} fill={isSelfDestruct ? "currentColor" : "none"} />
+                  </button>
                   <button type="button" className="btn btn-ghost btn-sm btn-circle opacity-40 hover:text-primary" onClick={() => docInputRef.current?.click()} title="Send Document">
                       <FileText size={20} />
                   </button>

@@ -2,6 +2,8 @@
 
 A modern, full-stack real-time chat application built with the MERN stack (MongoDB, Express, React, Node.js), featuring real-time messaging, user authentication, and a polished UI.
 
+**Live Frontend (GitHub Pages):** [https://darshan007-code.github.io/Real-Time-Chat-App/](https://darshan007-code.github.io/Real-Time-Chat-App/)
+
 ## ✨ Features
 
 - 📱 **Responsive UI**: Clean and modern interface built with TailwindCSS and DaisyUI.

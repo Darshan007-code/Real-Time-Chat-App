@@ -164,6 +164,7 @@ const ChatContainer = () => {
                   {message.text && <p className={`text-sm leading-relaxed ${isMedia ? "p-3 font-medium bg-black/5 rounded-b-2xl mt-1" : ""}`}>{message.text}</p>}
                   
                   <div className={`flex items-center justify-end gap-1 mt-1 ${isMedia ? "px-3 pb-2" : ""}`}>
+                     {message.selfDestruct && <Flame size={12} className="text-orange-500 animate-pulse" fill="currentColor" />}
                      {isMyMessage && !selectedGroup && (message.isSeen ? <CheckCheck size={14} className="text-blue-400" /> : <Check size={14} className="opacity-40" />)}
                   </div>
                 </div>
